@@ -6,7 +6,7 @@ public class Program
 {
     private DiscordSocketClient _client;
 
-    public static Task main(string args[]) => new Program().MainAsync();
+    public static Task main(string[] args) => new Program().MainAsync();
 
     public async Task MainAsync()
     {
