@@ -4,10 +4,10 @@ using System.Configuration;
 
 public class Program
 {
+    public static Task Main(string[] args) => new Program().MainAsync();
+ 
     private DiscordSocketClient _client;
-
-    public static Task main(string[] args) => new Program().MainAsync();
-
+    
     public async Task MainAsync()
     {
         _client = new DiscordSocketClient();
