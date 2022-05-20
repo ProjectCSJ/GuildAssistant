@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuildAssistant", "GuildAssistant\GuildAssistant.csproj", "{0E85D2F0-0E62-4B3A-88F1-35BE71C2A1B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuildAssistant", "GuildAssistant.csproj", "{0E85D2F0-0E62-4B3A-88F1-35BE71C2A1B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
