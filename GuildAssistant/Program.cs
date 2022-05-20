@@ -5,9 +5,9 @@ using System.Configuration;
 public class Program
 {
     public static Task Main(string[] args) => new Program().MainAsync();
- 
-    private DiscordSocketClient _client;
-    
+
+    private DiscordSocketClient? _client;
+
     public async Task MainAsync()
     {
         _client = new DiscordSocketClient();
@@ -22,7 +22,7 @@ public class Program
         // var token = Environment.GetEnvironmentVariable("NameOfYourEnvironmentVariable");
         // var token = File.ReadAllText("token.txt");
         // var token = JsonConvert.DeserializeObject<AConfigurationClass>(File.ReadAllText("config.json")).Token;
-        
+
         await _client.LoginAsync(TokenType.Bot, token);
         await _client.StartAsync();
 
