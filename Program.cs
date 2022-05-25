@@ -1,8 +1,4 @@
-﻿using Discord;
-using Discord.WebSocket;
-using System.Configuration;
-
-public class Program
+﻿public class Program
 {
     public static Task Main(string[] args) => new Program().MainAsync();
 
